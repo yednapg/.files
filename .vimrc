@@ -1,10 +1,9 @@
-" set compatibility to Vim only
 set nocompatible
 
-" Encoding
+execute pathogen#infect()
+
 set encoding=utf-8
 
-" Wrapping the text that is beyonf the screen
 set wrap
 
 filetype on
@@ -15,5 +14,12 @@ filetype indent on
 
 syntax on
 
-" Show line numbers
 set number
+
+syntax enable
+
+let g:airline_solarized_bg='dark'
+
+let g:airline#extensions#tabline#enabled = 1
+
+let g:airline#extensions#tabline#formatter = 'default'
