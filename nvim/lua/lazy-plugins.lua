@@ -1,4 +1,3 @@
-
 require("lazy").setup({
 	"tpope/vim-sleuth",
 	{ "numToStr/Comment.nvim", opts = {} },
@@ -15,6 +14,7 @@ require("lazy").setup({
 	require("kickstart/plugins/autopairs"),
 	require("kickstart/plugins/filetree"),
 	require("kickstart/plugins/blankline"),
+	require("kickstart/plugins/barbar"),
 }, {
 	ui = {
 		icons = vim.g.have_nerd_font and {} or {
@@ -34,3 +34,4 @@ require("lazy").setup({
 		},
 	},
 })
+
