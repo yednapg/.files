@@ -1,0 +1,14 @@
+font_family      Iosevka Nerd Font Mono
+hide_window_decorations yes
+font_size 20.0
+initial_window_width  101
+initial_window_height 32
+modify_font cell_width -1px
+modify_font cell_height -2px
+shell /opt/homebrew/bin/fish
+window_padding_width 0
+window_margin_width 0
+# BEGIN_KITTY_THEME
+# Solarized8 Dark
+include current-theme.conf
+# END_KITTY_THEME

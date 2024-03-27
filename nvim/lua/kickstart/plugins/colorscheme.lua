@@ -1,9 +1,9 @@
 return {
-	"folke/tokyonight.nvim",
+	"craftzdog/solarized-osaka.nvim",
 	lazy = false,
 	priority = 1000,
 	init = function()
-		vim.cmd.colorscheme("tokyonight-night")
+		vim.cmd.colorscheme("solarized-osaka")
 		vim.cmd.hi("Comment gui=none")
 	end,
 }
